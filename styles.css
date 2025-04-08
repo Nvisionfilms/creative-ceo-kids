@@ -47,6 +47,15 @@ nav {
     font-weight: bold;
 }
 
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-buttons .btn {
+    white-space: nowrap;
+}
+
 .hero {
     flex: 1;
     display: flex;
@@ -215,6 +224,17 @@ footer {
     
     .grid-list, .timeline, .info-grid, .benefits-grid {
         grid-template-columns: 1fr;
+    }
+    
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .nav-buttons {
+        flex-direction: column;
+        width: 100%;
     }
 }
 
